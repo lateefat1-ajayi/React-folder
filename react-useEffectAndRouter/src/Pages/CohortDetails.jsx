@@ -1,9 +1,11 @@
 import React from 'react'
 
-const CohortDetails = () => {
+
+const CohortDetails = ({countries, setCountries}) => {
+
   return (
     <div>
-      
+
     </div>
   )
 }

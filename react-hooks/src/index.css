@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+
+  --color-primarycolors: #131415;
+  --color-primaryBlue: #6968f7;
+}
+
+*{
+  @apply 
+  box-border
+  text-white
+}
+
+.gradientColor{
+  background: linear-gradient(135deg, #69f, #f36);
+}

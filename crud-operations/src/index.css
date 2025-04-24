@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+*{
+    @apply
+     box-border
+}
