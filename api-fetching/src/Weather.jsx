@@ -41,6 +41,8 @@ const Weather = () => {
       <input className='rounded-sm border text-center outline-none p-2 ' type="text" placeholder='Enter city...' value={city} onChange={(e) => setCity(e.target.value)}/>
       <button className='bg-amber-600 p-2 rounded-md text-white ml-2 hover:bg-amber-700 hover:-translate-y-1.5 duration-400 ' onClick={getWeather}>Get Weather</button>
       </div>
+
+      
       {error && <p className='text-red-500'>{error}</p> }
 
       {weather && (
